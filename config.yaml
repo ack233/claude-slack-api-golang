@@ -1,0 +1,20 @@
+#日志位置
+logfile: "./log"
+
+#日志级别
+loglevel: "debug"
+
+#可选debug调试模式，release生产模式
+ginmode: "debug" 
+
+# 监听端口
+port: "5000"
+# api授权token,简化curl调用
+
+SLACK:
+    ENCRYPTION_KEY: 自定义key
+    SLACK_APP_TOKEN: xapp-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.......
+    SLACK_BOT_TOKEN: xoxb-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    SLACK_OAUTH_CLIENT_ID: "xxxxxxxxxxx.xxxxxxxxxxxx"
+    SLACK_OAUTH_CLIENT_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    SLACK_OAUTH_REDIRECT_URI: https://xxx.xxx.xxx/callback
